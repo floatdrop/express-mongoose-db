@@ -11,7 +11,8 @@
     "url": "http://github.com/floatdrop/express-mongoose-db"
   },
   "dependencies": {
-    "connect-once": "~0.1.0"
+    "connect-once": "~0.1.0",
+    "mongoose": "^3.8.14"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
