@@ -1,0 +1,27 @@
+{
+  "name": "express-mongoose-db",
+  "version": "0.0.0",
+  "description": "Middleware for connection to mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/floatdrop/express-mongoose-db"
+  },
+  "dependencies": {
+    "connect-once": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "should": "~3.0.1"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "middleware"
+  ],
+  "author": "Vsevolod Strukchinsky",
+  "license": "MIT"
+}
