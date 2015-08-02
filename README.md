@@ -1,5 +1,7 @@
-# express-mongoose-db
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
+# express-mongoose-db [![Build Status][travis-image]][travis-url]
+
+:warning: Deprecated.
+
 > Connect once and memorize connection for next usages
 
 ## Usage
@@ -68,11 +70,5 @@ mongoosedb.connection.when('available', function(err, db) {
 
 `express-mongoose-db` will start attempts to connect straight after require.
 
-[npm-url]: https://npmjs.org/package/express-mongoose-db
-[npm-image]: https://badge.fury.io/js/express-mongoose-db.png
-
 [travis-url]: http://travis-ci.org/floatdrop/express-mongoose-db
-[travis-image]: https://travis-ci.org/floatdrop/express-mongoose-db.png?branch=master
-
-[depstat-url]: https://david-dm.org/floatdrop/express-mongoose-db
-[depstat-image]: https://david-dm.org/floatdrop/express-mongoose-db.png?theme=shields.io
+[travis-image]: https://travis-ci.org/floatdrop/express-mongoose-db.svg?branch=master
